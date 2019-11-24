@@ -1,9 +1,17 @@
 # Accept the Go version for the image to be set as a build argument.
 # Default to Go 1.12
-ARG GO_VERSION=1.12
+ARG GO_VERSION=1.13
 
 # First stage: build the executable.
-FROM golang:${GO_VERSION}-alpine AS builder
+FROM --platform=$BUILDPLATFORM golang:${GO_VERSION}-alpine AS builder
+
+ARG GOPROXY
+ARG BUILDPLATFORM
+ARG TARGETARCH
+ARG TARGETOS
+ENV GOPROXY ${GOPROXY}
+ENV GOOS ${TARGETOS}
+ENV GOARCH ${TARGETARCH}
 
 # Create the user and group files that will be used in the running container to
 # run the process as an unprivileged user.
@@ -30,7 +38,7 @@ COPY ./ ./
 # Build the executable to `/app`. Mark the build as statically linked.
 RUN CGO_ENABLED=0 go build \
   -installsuffix 'static' \
-  -o /app .
+  -o /app ./cmd/platform
 
 # Final stage: the running container.
 FROM scratch AS final
