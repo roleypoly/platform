@@ -3,7 +3,7 @@ module github.com/roleypoly/platform
 go 1.12
 
 require (
-	github.com/facebookincubator/ent v0.0.0-20191121164959-1e49561634fb
+	github.com/facebookincubator/ent v0.0.0-20191124160608-0344904a4ef1
 	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0
 	github.com/improbable-eng/grpc-web v0.11.0
