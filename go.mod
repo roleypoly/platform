@@ -8,7 +8,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0
 	github.com/improbable-eng/grpc-web v0.11.0
 	github.com/joho/godotenv v1.3.0
-	github.com/lib/pq v1.2.0
+	github.com/lib/pq v1.3.0
 	github.com/roleypoly/gripkit v0.0.0-20191011191415-2d4339179ade
 	github.com/roleypoly/rpc v0.0.0-20191113204303-812d3e4068d9
 	go.uber.org/atomic v1.5.1 // indirect
