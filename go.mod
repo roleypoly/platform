@@ -6,7 +6,7 @@ require (
 	github.com/facebookincubator/ent v0.0.0-20191124160608-0344904a4ef1
 	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0
-	github.com/improbable-eng/grpc-web v0.11.0
+	github.com/improbable-eng/grpc-web v0.12.0
 	github.com/joho/godotenv v1.3.0
 	github.com/lib/pq v1.3.0
 	github.com/roleypoly/gripkit v0.0.0-20191011191415-2d4339179ade
