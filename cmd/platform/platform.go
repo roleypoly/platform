@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/joho/godotenv/autoload"
 	_ "github.com/lib/pq"
-	"github.com/roleypoly/platform/ent"
+	"github.com/roleypoly/db/ent"
 	platformrpc "github.com/roleypoly/platform/rpc"
 	"go.uber.org/fx"
 )
