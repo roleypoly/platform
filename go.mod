@@ -2,9 +2,7 @@ module github.com/roleypoly/platform
 
 require (
 	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
-	github.com/facebookincubator/ent v0.0.0-20191128111655-f98dbbc440cb
 	github.com/golang/protobuf v1.3.2
-	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0
 	github.com/improbable-eng/grpc-web v0.12.0
 	github.com/joho/godotenv v1.3.0
 	github.com/lib/pq v1.3.0
