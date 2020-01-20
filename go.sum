@@ -81,6 +81,8 @@ github.com/roleypoly/platform v0.0.0-20191124171411-08cebd9fee1d/go.mod h1:tETk/
 github.com/roleypoly/rpc v0.0.0-20191113204303-812d3e4068d9/go.mod h1:gzZqMbvkhygIk4cxZjRxc2R2fW4sqSiD0DvEEBpUJZ4=
 github.com/roleypoly/rpc v1.2.2 h1:ba7+DrPkZQfyRQYxeGtRvYralnvPEnbVnciY5FjWu3E=
 github.com/roleypoly/rpc v1.2.2/go.mod h1:8J/JCPMsVBbC1wsnewpagBNeX/T41X1SZ3Z0drpzRSM=
+github.com/roleypoly/rpc v1.4.0 h1:82mXF+MkMV3vqbAc7EJ6pfr3NrYE67OrmnmtV8Te4cM=
+github.com/roleypoly/rpc v1.4.0/go.mod h1:8J/JCPMsVBbC1wsnewpagBNeX/T41X1SZ3Z0drpzRSM=
 github.com/rs/cors v1.7.0 h1:+88SsELBHx5r+hZ8TCkggzSstaWNbDvThkVK8H6f9ik=
 github.com/rs/cors v1.7.0/go.mod h1:gFx+x8UowdsKA9AchylcLynDq+nNFfI8FkUZdN/jGCU=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
