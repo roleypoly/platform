@@ -9,7 +9,7 @@ require (
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/roleypoly/db v0.0.0-20191223044439-71c784b29e0b
 	github.com/roleypoly/gripkit v0.0.0-20191011191415-2d4339179ade
-	github.com/roleypoly/rpc v1.2.2
+	github.com/roleypoly/rpc v1.5.0
 	go.uber.org/fx v1.10.0
 	google.golang.org/grpc v1.26.0
 )
