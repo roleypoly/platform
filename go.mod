@@ -11,7 +11,7 @@ require (
 	github.com/roleypoly/gripkit v0.0.0-20191011191415-2d4339179ade
 	github.com/roleypoly/rpc v1.2.2
 	go.uber.org/fx v1.10.0
-	google.golang.org/grpc v1.26.0
+	google.golang.org/grpc v1.27.1
 )
 
 go 1.13
