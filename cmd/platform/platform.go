@@ -33,6 +33,7 @@ func main() {
 			NewAuthClient,
 			NewGripkit,
 			platformrpc.NewPlatformService,
+			platformrpc.NewUnauthenticatedPlatformService,
 			NewDatabaseClient,
 		),
 		fx.Invoke(platformrpc.RegisterRPCHandlers),
