@@ -12,7 +12,7 @@ require (
 	github.com/roleypoly/gripkit v0.0.0-20191011191415-2d4339179ade
 	github.com/roleypoly/rpc v1.7.0
 	go.uber.org/fx v1.10.0
-	google.golang.org/grpc v1.27.1
+	google.golang.org/grpc v1.28.0
 	k8s.io/klog v1.0.0
 )
 
