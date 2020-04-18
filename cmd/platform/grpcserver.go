@@ -28,7 +28,7 @@ func NewGripkit(lc fx.Lifecycle) *gripkit.Gripkit {
 				grpc_middleware.ChainUnaryServer(
 					grpc_auth.UnaryServerInterceptor(func(ctx context.Context) (context.Context, error) { return ctx, nil }),
 				),
-			)
+			),
 		),
 	)
 
