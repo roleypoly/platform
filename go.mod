@@ -17,7 +17,7 @@ require (
 	golang.org/x/sys v0.0.0-20200413165638-669c56c373c4 // indirect
 	golang.org/x/tools v0.0.0-20200417140056-c07e33ef3290 // indirect
 	google.golang.org/genproto v0.0.0-20200417142217-fb6d0575620b // indirect
-	google.golang.org/grpc v1.28.1
+	google.golang.org/grpc v1.29.0
 	honnef.co/go/tools v0.0.1-2020.1.3 // indirect
 	k8s.io/klog v1.0.0
 )
