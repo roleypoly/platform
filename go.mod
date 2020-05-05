@@ -2,7 +2,7 @@ module github.com/roleypoly/platform
 
 require (
 	github.com/facebookincubator/ent v0.1.4 // indirect
-	github.com/golang/protobuf v1.4.0
+	github.com/golang/protobuf v1.4.1
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
 	github.com/improbable-eng/grpc-web v0.12.0
 	github.com/joho/godotenv v1.3.0
