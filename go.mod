@@ -6,7 +6,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
 	github.com/improbable-eng/grpc-web v0.12.0
 	github.com/joho/godotenv v1.3.0
-	github.com/lib/pq v1.3.0
+	github.com/lib/pq v1.7.0
 	github.com/roleypoly/db v0.0.0-20200418133848-961ee6d8fd4c
 	github.com/roleypoly/gripkit v0.0.0-20200329004628-e03cff127b71
 	github.com/roleypoly/rpc v1.8.1
