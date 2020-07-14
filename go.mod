@@ -4,7 +4,7 @@ require (
 	github.com/facebookincubator/ent v0.1.4 // indirect
 	github.com/golang/protobuf v1.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
-	github.com/improbable-eng/grpc-web v0.12.0
+	github.com/improbable-eng/grpc-web v0.13.0
 	github.com/joho/godotenv v1.3.0
 	github.com/lib/pq v1.3.0
 	github.com/roleypoly/db v0.0.0-20200418133848-961ee6d8fd4c
