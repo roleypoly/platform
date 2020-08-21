@@ -10,7 +10,7 @@ require (
 	github.com/roleypoly/db v0.0.0-20200418133848-961ee6d8fd4c
 	github.com/roleypoly/gripkit v0.0.0-20200329004628-e03cff127b71
 	github.com/roleypoly/rpc v1.8.1
-	go.uber.org/fx v1.12.0
+	go.uber.org/fx v1.13.1
 	go.uber.org/multierr v1.5.0 // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
 	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e // indirect
